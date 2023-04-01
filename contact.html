@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info page</title>
+</head>
+<body>
+    <h2>MY PERSONAL CONTACT INFORMATION</h2>
+    <h3>You can contact me through any of the below links provided :--</h3> 
+    <h3>ADDRESS:- O.K ROAD WEST BENGAL,INDIA</h3>
+    <h3><a href="ragibhero1@gmail.com">MAIL ADDRESS</a></h3>
+    <h3><a href="../myw3schoolsimage.jpg" download>DOWNLOAD DETAILS</a></h3>
+    <h2>PEALSE FILL THE REQUIRED FORM TO TAKE PART IN THE EVENT--</h2>
+    <h3>CANDIDATE DETAILS :-</h3>
+    <form action="https://www.youtube.com/results?">
+        <table>
+            <tr>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td><label for="fname">ENTER FIRST NAME:-</label></td>
+                            <td><input type="text" id="fname" name="search_query" placeholder="firstname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">ENTER COLLEGE ROLL:-</label></td>
+                            <td><input type="text" id="lname" name="lname" placeholder="firstname" required></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellspacing="10">
+                        <tr>
+                            <td><label for="croll">ENTER LAST NAME:-</label></td>
+                            <td><input type="text" id="croll" name="roll" placeholder="Roll"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="creg">ENTER COLLEGE REGISTRATION:-</label></td>
+                            <td><input type="text" id="creg" name="reg" placeholder="REGISTRATION"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>                
+        </table>
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" name="dob" id="dob" required min="2000-01-01">
+        <br><br>
+        <label for="pobo">PLACE OF BIRTH:</label>
+        <input list="pob" id="pobo">                    <!--yaha dono id same nai h list ke sath same nai h label ke sath input aaisa he hota h-->
+        <datalist id="pob">
+            <option value="ASANSOL">
+            <option value="DURGAPUR">
+            <option value="PATNA">
+            <option value="TATA">
+        </datalist>
+        <br>
+        <br>
+        <label for="sob">STATE OF BIRTH:</label>
+        <select id="sob" name="state">
+            <option value="WB">WEST BENGAL</option>
+            <option value="BIHAR">BIHAR</option>
+            <option value="UP">UTTER PRADESH</option>
+            <option value="KR">KERALA</option>
+            <option value="HYD" selected>HYDERABAD</option>
+            <option value="HP">HIMACHAL PRADESH</option>
+        </select>
+        <label for="dom1">UPLOAD DOCUMENTS</label>
+        <input type="file" name="dom" id="dom1">
+        <br>
+        <h4>CHOOSE NUMBER OF EVENTS TO TAKE PART IN:</h4>
+        <input type="checkbox" id="run" name="run" value="run" checked>
+        <label for="run">RUNNING</label><br>
+        <input type="checkbox" id="jump" name="jump" value="jump">
+        <label for="jump">JUMPING</label><br>
+        <input type="checkbox" id="strength" name="strength" value="strength">
+        <label for="strength">BOXING</label>
+
+        <h4>CHOOSE BELOW OPTIONS:-</h4>
+        <strong>RUNNING:</strong><br>
+        <input type="radio" name="running" id="run0" value="100">
+        <label for="run0">100m RUNNING</label><br>
+        <input type="radio" name="running" id="run1" value="200">
+        <label for="run1">200m RUNNING</label><br>
+        <input type="radio" name="running" id="run2" value="400">
+        <label for="run2">400m RUNNING</label>
+        <br>
+        <br>
+        <strong>BOXING</strong><br>
+        <input type="radio" name="STR" id="ST1" value="SHOTPUT">
+        <label for="ST1">SHOTPUT</label><br>
+        <input type="radio" name="STR" id="ST2" value="JUDO">
+        <label for="ST2">JUDO</label><br>
+        <input type="radio" name="STR" id="ST3" value="KARATA">
+        <label for="ST3">KARATA</label>
+        <br>
+        <br>
+        <h4>ASK YOUR QUERY BELOW:</h4>
+        <textarea name="letter" rows="7" cols="25">ENTER QUERY....</textarea>
+        <br>
+        <br>
+        <input type="reset" value="RESET!!! "><button>..SUBMIT..</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
